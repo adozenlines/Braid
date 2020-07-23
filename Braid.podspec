@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
     ss.source_files = 'Rx/'
     ss.ios.framework = "UIKit"
     ss.dependency 'Braid/Core'
-    ss.dependency 'RxSwift', '~> 4.4'
-    ss.dependency 'RxCocoa', '~> 4.4'
+    ss.dependency 'RxSwift', '~> 5.0'
+    ss.dependency 'RxCocoa', '~> 5.0'
     ss.pod_target_xcconfig = { 'OTHER_SWIFT_FLAGS' => '-DRX_BRAID', }
   end
 end
